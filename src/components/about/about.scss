@@ -1,0 +1,49 @@
+@import "../../global.scss";
+
+.about {
+  /* padding: 70px; */ //tentar resolver topbar
+  height: calc(100vh - 70px);
+  background-color: $mainColor;
+  display: flex;
+  align-items: center;
+
+  .about-left {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .about-card.bg {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: $mainColor2;
+    }
+
+    .about-card {
+      width: 60%;
+      height: 70vh;
+      position: relative;
+      .about-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  .about-right {
+    flex: 1;
+    color: #5a2720;
+    .about-title {
+      font-weight: 400;
+    }
+    .about-desc {
+      width: 70%;
+      font-weight: 300;
+      font-size: 18px;
+      text-align: justify;
+    }
+  }
+}

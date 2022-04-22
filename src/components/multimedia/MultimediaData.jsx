@@ -1,0 +1,20 @@
+export const MultimediaData = [
+    {
+        image:"assets/IMG-20210625-WA0003.jpg"
+    },
+    {
+        image:"assets/img.jpg"
+    },
+    {
+        image:"assets/IMG-20210713-WA0105.jpg"
+    },
+    {
+        image:"assets/IMG_1603.jpg"
+    },
+    {
+        image:"assets/2007.JPG"
+    },
+    {
+        image:"assets/comcordas.jpg"
+    }
+]
